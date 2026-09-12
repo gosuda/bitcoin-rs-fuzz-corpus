@@ -4,7 +4,7 @@ Coverage-guided fuzzing corpora for
 [bitcoin-rs](https://github.com/gosuda/bitcoin-rs).
 
 Each directory under `corpus/` matches a `cargo-fuzz` target in the main
-repository. The weekly campaign runs the target against its directory,
+repository. The scheduled campaign runs the target against its directory,
 minimizes the resulting corpus, and commits a change only when the minimized
 set changes. Campaign metadata records the exact bitcoin-rs revision and
 GitHub Actions run that produced each update.
