@@ -1,0 +1,32 @@
+{
+  "target": "block_validate",
+  "source_repository": "gosuda/bitcoin-rs",
+  "source_commit": "f9ee5e0d9631da4c92b5c76e4a10396e33049603",
+  "corpus_base_commit": "d186f56ffb74359be9bd034a62241c38067bbd3d",
+  "run_url": "https://github.com/gosuda/bitcoin-rs/actions/runs/34679195269",
+  "started_at": "2026-09-12T06:51:33Z",
+  "completed_at": "2026-09-12T06:54:28Z",
+  "duration_seconds": 60,
+  "max_seed_bytes": 65536,
+  "corpus": {
+    "before": {
+      "inputs": 178,
+      "bytes": 91625
+    },
+    "after": {
+      "inputs": 331,
+      "bytes": 247140
+    }
+  },
+  "coverage": {
+    "before_total": "TOTAL                                            6193              5369    13.31%         768               647    15.76%        5831              5021    13.89%           0                 0         -",
+    "after_total": "TOTAL                                            6193              5182    16.32%         768               623    18.88%        5831              4858    16.69%           0                 0         -"
+  },
+  "sanitizers": {
+    "fuzz": "address",
+    "fuzz_leak_detection": true,
+    "coverage": "none"
+  },
+  "fuzz_exit_status": 0,
+  "cmin_exit_status": 0
+}
