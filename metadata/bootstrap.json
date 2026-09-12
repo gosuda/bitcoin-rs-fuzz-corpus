@@ -1,0 +1,13 @@
+{
+  "bitcoin_rs_commit": "1a125f2486c843c28174df695c9498c6f52e4292",
+  "created_at": "2026-09-12T05:36:39Z",
+  "qa_assets_commit": "ffd27e4ee51266673859e3d1314369e780e26a4e",
+  "seed_count": 866,
+  "targets": {
+    "block_validate": 178,
+    "p2p_message": 517,
+    "script_eval": 36,
+    "tx_validate": 134,
+    "utxo_snapshot": 1
+  }
+}
