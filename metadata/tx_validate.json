@@ -2,20 +2,20 @@
   "target": "tx_validate",
   "source_repository": "gosuda/bitcoin-rs",
   "source_commit": "748b784660171640b5e4718ee80f23478461a244",
-  "corpus_base_commit": "a0a86451a138cfa9d62e0cc19b31c53295de7f32",
-  "run_url": "https://github.com/gosuda/bitcoin-rs/actions/runs/35838212349",
-  "started_at": "2026-09-23T08:42:33Z",
-  "completed_at": "2026-09-23T09:45:02Z",
+  "corpus_base_commit": "d2b635cde0ac2a1650ce900e41956b912c20e880",
+  "run_url": "https://github.com/gosuda/bitcoin-rs/actions/runs/35975654049",
+  "started_at": "2026-09-24T08:31:01Z",
+  "completed_at": "2026-09-24T09:33:30Z",
   "duration_seconds": 3600,
   "max_seed_bytes": 65536,
   "corpus": {
     "before": {
-      "inputs": 1601,
-      "bytes": 1063009
+      "inputs": 1600,
+      "bytes": 988410
     },
     "after": {
-      "inputs": 1521,
-      "bytes": 952113
+      "inputs": 1519,
+      "bytes": 906481
     }
   },
   "coverage": {
