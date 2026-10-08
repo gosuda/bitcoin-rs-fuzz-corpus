@@ -14,6 +14,14 @@ main repository. See its
 [fuzzing guide](https://github.com/gosuda/bitcoin-rs/blob/main/fuzz/README.md)
 before contributing inputs or running a local campaign.
 
+`corpus/verdicts.json` pins the expected native-codec verdict per
+`tx_validate`/`block_validate` seed (QAC-05,
+[docs/contracts/qa-corpus.md](https://github.com/gosuda/bitcoin-rs/blob/main/docs/contracts/qa-corpus.md)).
+bitcoin-rs's differential gate enforces it bidirectionally; the daily
+publish-corpus job regenerates it after applying campaign output. Manual
+refresh: `BITCOIN_RS_FUZZ_CORPUS=<checkout>/corpus CORPUS_VERDICTS_WRITE=1
+cargo test -p bitcoin-rs-primitives --test differential`.
+
 ## Initial corpus
 
 The initial `block_validate`, `p2p_message`, `script_eval`, and `tx_validate`
