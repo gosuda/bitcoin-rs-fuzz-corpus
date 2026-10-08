@@ -25,3 +25,22 @@ from [rust-bitcoin/qa-assets](https://github.com/rust-bitcoin/qa-assets) commit
 The initial `utxo_snapshot` input is the bitcoin-rs v4 golden snapshot from the
 same bitcoin-rs revision and is available under the repository's MIT OR
 Apache-2.0 license.
+
+## Imported reference corpora
+
+This repository is the single home for seed corpora; the main repository's
+`fuzz/corpus/` directory was retired into it (bitcoin-rs PRs
+[#1396](https://github.com/gosuda/bitcoin-rs/pull/1396) and
+[#1402](https://github.com/gosuda/bitcoin-rs/pull/1402)). Those inputs include
+corpora imported and minimized from
+[bitcoin/bitcoin](https://github.com/bitcoin/bitcoin) commit
+`9dfde64cc3262329051fd05fffe40eecc786a99f` (MIT) and
+[btcsuite/btcd](https://github.com/btcsuite/btcd) commit
+`b48125d0a3565b1441522ee10422f7815db03216` (ISC) on top of the qa-assets set.
+
+Per-source provenance, upstream pins, licenses, and the refresh rule are owned
+by the main repository's
+[fuzz/CORPUS_PROVENANCE.md](https://github.com/gosuda/bitcoin-rs/blob/main/fuzz/CORPUS_PROVENANCE.md).
+`.reference-inventory.json` at the repository root tracks which seeds the
+reference importer owns so a pin refresh can remove stale ones; it is
+maintained by `scripts/import-reference-corpora.sh` and is not for hand edits.
