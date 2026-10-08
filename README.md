@@ -52,3 +52,6 @@ by the main repository's
 `.reference-inventory.json` at the repository root tracks which seeds the
 reference importer owns so a pin refresh can remove stale ones; it is
 maintained by `scripts/import-reference-corpora.sh` and is not for hand edits.
+
+`metadata/` records the campaign run that produced each update — the counts
+there describe that run's corpus, not the current directory contents.
