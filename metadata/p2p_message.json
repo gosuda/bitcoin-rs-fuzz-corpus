@@ -1,26 +1,26 @@
 {
   "target": "p2p_message",
   "source_repository": "gosuda/bitcoin-rs",
-  "source_commit": "4f3a659a7f070957c832b5d406a16b27111b8466",
-  "corpus_base_commit": "8cfed4853b5d7fbcac84c574a508498afcd78552",
-  "run_url": "https://github.com/gosuda/bitcoin-rs/actions/runs/39015174003",
-  "started_at": "2026-10-17T07:51:37Z",
-  "completed_at": "2026-10-17T08:54:16Z",
+  "source_commit": "479a40affb1d26a5644b2594ebc912b5281641cf",
+  "corpus_base_commit": "64f0fc1a2d295ac13ddf5299cae780379c4d12ef",
+  "run_url": "https://github.com/gosuda/bitcoin-rs/actions/runs/39110095169",
+  "started_at": "2026-10-18T08:05:44Z",
+  "completed_at": "2026-10-18T09:09:09Z",
   "duration_seconds": 3600,
   "max_seed_bytes": 65536,
   "corpus": {
     "before": {
-      "inputs": 1242,
-      "bytes": 1504096
+      "inputs": 1243,
+      "bytes": 1498460
     },
     "after": {
       "inputs": 1243,
-      "bytes": 1498460
+      "bytes": 1499469
     }
   },
   "coverage": {
-    "before_total": "TOTAL                                                            46536             45772     1.64%        5082              5012     1.38%       46545             45884     1.42%           0                 0         -",
-    "after_total": "TOTAL                                                            46536             45772     1.64%        5082              5012     1.38%       46545             45884     1.42%           0                 0         -"
+    "before_total": "TOTAL                                                            46591             45827     1.64%        5088              5018     1.38%       46613             45952     1.42%           0                 0         -",
+    "after_total": "TOTAL                                                            46591             45827     1.64%        5088              5018     1.38%       46613             45952     1.42%           0                 0         -"
   },
   "sanitizers": {
     "fuzz": "address",
