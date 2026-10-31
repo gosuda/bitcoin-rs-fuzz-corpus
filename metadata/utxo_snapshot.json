@@ -1,26 +1,26 @@
 {
   "target": "utxo_snapshot",
   "source_repository": "gosuda/bitcoin-rs",
-  "source_commit": "607b9df580a2a981641b798d5a4cce08b7fc58f9",
-  "corpus_base_commit": "361135b22f4de3ea52815cc4120bddba120b32d4",
-  "run_url": "https://github.com/gosuda/bitcoin-rs/actions/runs/41038168816",
-  "started_at": "2026-10-30T10:06:06Z",
-  "completed_at": "2026-10-30T11:10:57Z",
+  "source_commit": "31f27b7558d067afdd543b5b6ee11a827b5ccf7a",
+  "corpus_base_commit": "497a1b0d783e86d867f59f490d41208a1309dce1",
+  "run_url": "https://github.com/gosuda/bitcoin-rs/actions/runs/41189793611",
+  "started_at": "2026-10-31T09:43:08Z",
+  "completed_at": "2026-10-31T10:47:01Z",
   "duration_seconds": 3600,
   "max_seed_bytes": 65536,
   "corpus": {
     "before": {
-      "inputs": 303,
-      "bytes": 762179
-    },
-    "after": {
       "inputs": 301,
       "bytes": 754276
+    },
+    "after": {
+      "inputs": 302,
+      "bytes": 781407
     }
   },
   "coverage": {
-    "before_total": "TOTAL                                                     12274             11205     8.71%        1433              1326     7.47%       11630             10622     8.67%           0                 0         -",
-    "after_total": "TOTAL                                                     12274             11205     8.71%        1433              1326     7.47%       11630             10622     8.67%           0                 0         -"
+    "before_total": "TOTAL                                                     12305             11236     8.69%        1436              1329     7.45%       11660             10652     8.64%           0                 0         -",
+    "after_total": "TOTAL                                                     12305             11236     8.69%        1436              1329     7.45%       11660             10652     8.64%           0                 0         -"
   },
   "sanitizers": {
     "fuzz": "address",
